@@ -17,6 +17,7 @@ Data for this project included details on all 7,043 Maven Communications clients
 Preview data set in the **[link](https://www.mavenanalytics.io/blog/maven-churn-challenge?utm_source=linkedin&utm_campaign=churnchallengelaunch_jp20220623)**
 
 ![App Screenshot](https://user-images.githubusercontent.com/99708829/179550264-2ccc334d-a87c-47c0-916b-fa6b657afb7c.png)
+**Dataset snippet**
 
 As a BI consultant, my job is to determine the rate of net growth or churn, classify consumers into low - and high segments total revenue earned, examine customer behavior within each segment, ascertain the reasons why customers departed, and develop ways to lower churn. I also wanted to understand the optimal profile for customers who stay and churn.
 ## Project Phases
