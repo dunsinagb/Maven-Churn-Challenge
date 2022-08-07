@@ -52,8 +52,6 @@ COPY PUBLIC.CHURN FROM '/private/tmp/telecom_customer_churn.csv' WITH CSV HEADER
 SELECT * FROM PUBLIC.CHURN
 
 --- CREATE TABLE 2
-drop table public.dictionary
-
 CREATE TABLE PUBLIC.DICTIONARY (
 	Code CHAR (50),
 	Field CHAR (50),
@@ -65,8 +63,6 @@ COPY PUBLIC.DICTIONARY FROM '/private/tmp/telecom_data_dictionary.csv' with deli
 SELECT * FROM PUBLIC.DICTIONARY
 
 --- CREATE TABLE 3
-drop table public.POPULATION
-
 CREATE TABLE PUBLIC.POPULATION (
 	Zipcode CHAR (50),
 	Population1 INT
