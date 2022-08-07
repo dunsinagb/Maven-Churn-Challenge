@@ -2,8 +2,9 @@
 --Author : Oluwadunsin Agbolabori
 --Data source : (https://www.mavenanalytics.io/data-playground)
 
---CREATE TABLE 1
+/* ======================= TABLES ========================*/
 
+--- CREATE TABLE 1
 CREATE TABLE PUBLIC.CHURN (
 Customerid CHAR (50),
 Gender CHAR (50),
@@ -75,8 +76,10 @@ COPY PUBLIC.POPULATION FROM '/private/tmp/telecom_zipcode_population.csv' with d
 
 SELECT * FROM PUBLIC.POPULATION
 
----------------------------------------------------------------------------------------
+/*======================== END TABLES ======================*/
 
+
+/* =================== QUERY QUESTIONS =================================== */
 --- Select major dataset
 SELECT * FROM churn;
 
@@ -135,4 +138,4 @@ FROM churn
 WHERE Customerstatus = 'Churned' AND Churncategory = 'Competitor'
 GROUP BY Churnreason;
 
-
+/* ==================================== STORED PROCEDURE QUERY QUESTIONS =================================== */
